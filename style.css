@@ -7,11 +7,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body {
+body::-webkit-scrollbar{
   background-color: #f5f5f5;
   color: #333;
   line-height: 1.5;
+ display: none;
 }
+body {
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 
 a {
   color: #555;
@@ -120,7 +128,7 @@ header {
 }
 /* Style the landing section */
 #landing-section {
-  background-image: url(https://picsum.photos/1920/1080); /* Add a background image */
+  background-image: url(./img/halima-bouchouicha-ESkI6T_Ef5A-unsplash.jpg); /* Add a background image */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -129,6 +137,26 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
 
