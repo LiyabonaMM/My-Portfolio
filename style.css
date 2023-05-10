@@ -6,7 +6,10 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
+body {
+  background: url('./img/background-image2.jpg.png') no-repeat center center fixed;
+  background-size: cover;
+}
 body::-webkit-scrollbar{
   background-color: #f5f5f5;
   color: #333;
@@ -19,7 +22,9 @@ body {
   scrollbar-width: none;
 }
 
-
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
 
 a {
   color: #555;
@@ -46,7 +51,14 @@ header {
   z-index: 100;
 }
 
-
+#skills{
+  margin-top: 20rem;
+  padding: 5rem;
+}
+#testimonial{
+  margin-top: 20rem;
+  padding: 5rem;
+}
 
 /* Landing Section Styles */
 
@@ -74,39 +86,6 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
   }
-  .card {
-    border: none;
-    border-radius: 1rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  ul.card-text {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  ul.card-text li::before {
-    content: "•";
-    color: #e361ff;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-  
-
 /* Work/Education Section Styles */
 
 #work-section {
@@ -128,7 +107,7 @@ header {
 }
 /* Style the landing section */
 #landing-section {
-  background-image: url(./img/halima-bouchouicha-ESkI6T_Ef5A-unsplash.jpg); /* Add a background image */
+  background-image: url(./img/background-image2.jpg.png); /* Add a background image */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -139,9 +118,6 @@ header {
   text-align: center;
 }
 
-.animate-bounce {
-  animation: bounce 1s infinite;
-}
 
 @keyframes bounce {
   0%,
@@ -162,6 +138,12 @@ header {
 
 
 /* Style the about section */
+#about-section {
+  margin-top: 20rem;
+  padding: 5rem;
+  background-image: url('./img/background-image2.jpg.png');
+  background-size: cover;
+}
 #about-section {
   background-color: #fff;
   padding: 4rem;
@@ -380,7 +362,12 @@ header {
   }
  
   /* Project Section */
-
+  #project-section {
+    margin-top: 20rem;
+    padding: 5rem;
+    background-image: url('./img/background-image2.jpg.png');
+    background-size: cover;
+  }
   #project-section h2 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -439,6 +426,13 @@ header {
   border-color: #138496;
 }
 
+/*Testimonial Section */
+#testimonial-section {
+  margin-top: 20rem;
+  padding: 5rem;
+  background-image: url('./img/background-image2.jpg.png');
+  background-size: cover;
+}
 
 .testimonial {
   background-color: #f9f9f9;
@@ -472,6 +466,8 @@ header {
     height: 100px;
   }
 }
+
+/*Footer Section*/
 
 .footer {
   background-color: #333;

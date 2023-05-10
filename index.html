@@ -18,6 +18,7 @@
 </head>
 <body>
   <header>
+  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">My Portfolio</a>
@@ -42,7 +43,7 @@
                   <a class="nav-link" href="#work-section">Work/Education</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#flip-cards">Skills</a>
+                  <a class="nav-link" href="#skills-section">Skills</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#project-section">Projects</a>
@@ -65,7 +66,7 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <h1 class="fw-bold text-black animate__animated animate__fadeInUp">Liyabona Mxhalisa</h1>
+          <h1 class="fw-bold text-white animate__animated animate__fadeInUp">Liyabona Mxhalisa</h1>
           <h2 class="text-white animate__animated animate__fadeInUp animate__delay-1s">Student & Web Developer</h2>
           <p class="lead animate__animated animate__fadeInUp animate__delay-2s">Passionate about creating visually stunning web experiences</p>
           <a href="#about-section" class="btn btn-primary scroll-down animate__animated animate__fadeInUp animate__delay-3s">
@@ -75,24 +76,22 @@
       </div>
     </div>
     <img src="https://img.icons8.com/fluency/48/null/circled-down-2.png" alt="Arrow Down" width="30" height="30" class="animate-bounce">
+</section>
 
-  </section>
-    
-    
-    <section id="about-section">
-      <div class="container py-5">
-        <div class="row align-items-center animate__animated animate__fadeIn">
-          <div class="col-md-6">
-            <img src="/img/my-picture.jpg" class="img-fluid rounded-circle mb-4" alt="Profile Picture">
-          </div>
-          <div class="col-md-6">
-            <h2 class="fw-bold mb-4">About Me</h2>
-            <p class="lead">Hi there! I'm Liyabona, a web developer based in Cape Town, South Africa. I'm currently a student at LifeChoice Academy, where I've been developing my skills in HTML, CSS, and JavaScript.</p>
-            <p class="lead">I'm passionate about creating visually stunning web experiences that not only look great, but also function seamlessly. In my free time, I enjoy exploring new technologies and experimenting with new design concepts.</p>
-          </div>
-        </div>
+<section id="about-section">
+  <div class="container py-5">
+    <div class="row align-items-center animate__animated animate__fadeIn">
+      <div class="col-md-6">
+        <img src="/img/my-picture.jpg" class="img-fluid rounded-circle mb-4" alt="Profile Picture">
       </div>
-    </section>
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-4 lead text-white">About Me</h2>
+        <p class="lead text-white">Hi there! I'm Liyabona, a web developer based in Cape Town, South Africa. I'm currently a student at LifeChoice Academy, where I've been developing my skills in HTML, CSS, and JavaScript.</p>
+        <p class="lead text-white">I'm passionate about creating visually stunning web experiences that not only look great, but also function seamlessly. In my free time, I enjoy exploring new technologies and experimenting with new design concepts.</p>
+      </div>
+    </div>
+  </div>
+</section>
     
     <section id="work-section">
       <div class="container">
@@ -134,17 +133,17 @@
     </section>
     
       
-          <!-- Flip cards section -->
-          <section id="flip-cards">
-            <div class="container">
-              <h2 class="text-center mb-5">Skills</h2>
+          <!-- Flip cards section and skills section  -->
+          <section id="skills-section">
+            <div class="container my-5">
+              <h2 id="skills" class="text-center lead text-white">Skills</h2>
               <div class="row justify-content-center">
                 <div class="col-md-4 mb-4">
                   <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                         <img src="img/htmllogo.png" alt="Image 1">
-                        <h4 class="mt-3">HTML</h4>
+                        <h4 class="mt-3 lead text-white">HTML</h4>
                       </div>
                       <div class="flip-card-back">
                         <p>HTML is the standard markup language for Web pages.</p>
@@ -157,7 +156,7 @@
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                         <img src="./img/csspic.webp" alt="Image 1">
-                        <h4 class="mt-3">CSS</h4>
+                        <h4 class="mt-3 lead text-white">CSS</h4>
                       </div>
                       <div class="flip-card-back">
                         <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
@@ -170,7 +169,7 @@
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                         <img src="./img/bootstrap.jpg" alt="Image 1">
-                        <h4 class="mt-3">Bootstrap</h4>
+                        <h4 class="mt-3 lead text-white">Bootstrap</h4>
                       </div>
                       <div class="flip-card-back">
                         <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
@@ -184,7 +183,7 @@
           
           <section id="project-section">
             <div class="container">
-              <h2 class="section-title">Projects</h2>
+              <h2 class="section-title lead text-white">Projects</h2>
               <div class="row project-row">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                   <div class="card">
@@ -223,7 +222,7 @@
         
             <section id="testimonial-section">
               <div class="container">
-                <h2 class="section-heading text-center">Testimonials</h2>
+                <h2 id="testimonial" class="text-center text-white">Testimonials</h2>
               <div class="row">
                 <div class="col-md-6">
                   <div class="testimonial">
@@ -270,20 +269,20 @@
             </div>
           </section>
           
-          
+        
                     <section id="contact">
                       <div class="container">
-                        <h2>Contact Me</h2>
+                        <h2 class="text-center text-white">Contact Me</h2>
                         <form action="https://formspree.io/f/xwkjaagq" method="POST">
                           <div class="form-group">
-                            <label for="email">Your Email:</label>
+                            <label for="email" class="text-center text-white">Your Email:</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
                           </div>
                           <div class="form-group">
-                            <label for="message">Your Message:</label>
+                            <label for="message" class="text-center text-white">Your Message:</label>
                             <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
                           </div>
-                          <button type="submit" class="btn btn-primary">Send</button>
+                          <button type="submit" class="btn btn-primary" class="text-center text-white">Send</button>
                         </form>
                       </div>
                     </section> 
