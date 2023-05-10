@@ -428,8 +428,7 @@ header {
 
 /*Testimonial Section */
 #testimonial-section {
-  margin-top: 20rem;
-  padding: 5rem;
+ 
   background-image: url('./img/background-image2.jpg.png');
   background-size: cover;
 }
