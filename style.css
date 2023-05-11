@@ -7,7 +7,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background: url('./img/background-image2.jpg.png') no-repeat center center fixed;
+  background: url('./img/background-image2.jpg-min.png') no-repeat center center fixed;
   background-size: cover;
 }
 body::-webkit-scrollbar{
@@ -107,7 +107,7 @@ header {
 }
 /* Style the landing section */
 #landing-section {
-  background-image: url(./img/background-image2.jpg.png); /* Add a background image */
+  background-image: url(/img/background-image2.jpg-min.png); /* Add a background image */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -141,7 +141,7 @@ header {
 #about-section {
   margin-top: 20rem;
   padding: 5rem;
-  background-image: url('./img/background-image2.jpg.png');
+  background-image: url('./img/background-image2.jpg-min.png');
   background-size: cover;
 }
 #about-section {
@@ -365,7 +365,7 @@ header {
   #project-section {
     margin-top: 20rem;
     padding: 5rem;
-    background-image: url('./img/background-image2.jpg.png');
+    background-image: url('./img/background-image2.jpg-min.png');
     background-size: cover;
   }
   #project-section h2 {
@@ -429,7 +429,7 @@ header {
 /*Testimonial Section */
 #testimonial-section {
  
-  background-image: url('./img/background-image2.jpg.png');
+  background-image: url('./img/background-image2.jpg-min.png');
   background-size: cover;
 }
 
